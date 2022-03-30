@@ -29,7 +29,7 @@ function Header() {
         <Link to="/Excom22">
           <li>
             <a className="btn1">
-              Excom
+              Execom
             </a>
           </li>
         </Link>
@@ -40,7 +40,7 @@ function Header() {
             </a>
           </li>
           </Link>
-        <Link to="/Events">
+        <Link to="/Events/2022">
           <li>
             <a className="btn1">
               Events
@@ -55,16 +55,6 @@ function Header() {
           </li>
         </Link>
 
-
-        <Link to="/Gallery">
-
-          <li>
-            <a className="btn1">
-              Gallery
-            </a>
-          </li>
-
-        </Link>
         <Link to="/ContactUs">
           <li>
             <a className="btn1" >

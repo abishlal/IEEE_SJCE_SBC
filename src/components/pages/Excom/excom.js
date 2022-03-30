@@ -9,7 +9,7 @@ function Excom() {
 
     <div>
           <div class="contain">
-        <span class="welcome">Excome</span>
+        <span class="welcome">Execome</span>
     </div>
       <div class="exnav teal borderYtoX">
         <Link to="/Excom22">2022</Link>

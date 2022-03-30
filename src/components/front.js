@@ -14,8 +14,13 @@ const Front = () => {
           <source src={Video} type="video/mp4" />
         </video>
         <Particles options={particlesOptions} />
-        <a>St. Joseph's College Of Engineering</a>
-        <a>Student Branch Chapter</a>
+        <div class="typewriter">
+
+          <h1>St. Joseph's College Of Engineering</h1>
+        </div>
+        <div class="typewriterr">
+          <h1>IEEE Student Branch Chapter</h1>
+        </div>
         <Link to="/Membership">
           <button className="button-49">JOIN IEEE </button>
         </Link>

@@ -6,7 +6,7 @@ const Excom22 = () => {
     <div className="body">
       <div className="sbc">
         <div class="nine">
-          <h1>Student Branch Office Bearers<span>Excom 2022</span></h1>
+          <h1>Student Branch Office Bearers<span>Execom 2022</span></h1>
         </div>
         <div className="box">
           <div className="excomCard">
@@ -325,7 +325,7 @@ const Excom22 = () => {
       </div>
       <div className="ias">
         <div class="nine">
-          <h1>Industrial Applications Society Office Bearers<span>Excom 2022</span></h1>
+          <h1>Industrial Applications Society Office Bearers<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">

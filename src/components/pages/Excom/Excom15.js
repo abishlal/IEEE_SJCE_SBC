@@ -6,7 +6,7 @@ const Excom15 = () => {
     <div>
       <div className="ias">
       <div class="nine">
-        <h1>INDUSTRIAL APPLICATION SOCIETY<span>Execom 2015</span></h1>
+        <h1>INDUSTRIAL APPLICATION SOCIETY OFFICE BEARERS<span>Execom 2015</span></h1>
       </div>
       <table>
         <tr>
@@ -37,7 +37,7 @@ const Excom15 = () => {
       </div>
       <div className="ras">
       <div class="nine">
-        <h1>ROBOTICS AND AUTOMATION SOCIETY<span>Execom 2015</span></h1>
+        <h1>ROBOTICS AND AUTOMATION SOCIETY OFFICE BEARERS<span>Execom 2015</span></h1>
       </div>
       <table>
         <tr>
@@ -68,7 +68,7 @@ const Excom15 = () => {
       </div>
       <div className="wie">
       <div class="nine">
-        <h1>WOMEN IN ENGINEERING<span>Execom 2015</span></h1>
+        <h1>WOMEN IN ENGINEERING AFFINITY GROUP OFFICE BEARERS<span>Execom 2015</span></h1>
       </div>
       <table>
         <tr>
@@ -99,7 +99,7 @@ const Excom15 = () => {
       </div>
       <div className="pels">
       <div class="nine">
-        <h1>POWER ELECTRONICS SOCIETY<span>Execom 2015</span></h1>
+        <h1>POWER ELECTRONICS SOCIETY OFFICE BEARERS<span>Execom 2015</span></h1>
       </div>
       <table>
         <tr>

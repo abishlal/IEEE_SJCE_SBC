@@ -25,6 +25,9 @@ import Excom16 from "./components/pages/Excom/Excom16";
 import Excom15 from "./components/pages/Excom/Excom15";
 import Footer from "./components/Footer";
 import Gallery from "./components/pages/Gallery";
+import Sidenav from "./components/pages/Events/Sidenav";
+import Events19 from "./components/pages/Events/Events19";
+
 
 const Routerss = () => {
   return (
@@ -49,6 +52,7 @@ const Routerss = () => {
             <>
               <Header />
               <AboutUs />
+              <Footer />
             </>
           }
         />
@@ -61,6 +65,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom22 />
+              <Footer />
             </>
           }
         />
@@ -72,6 +77,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom21 />
+              <Footer />
             </>
           }
         />
@@ -83,6 +89,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom20 />
+              <Footer />
             </>
           }
         />
@@ -94,6 +101,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom19 />
+              <Footer />
             </>
           }
         />
@@ -105,6 +113,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom18 />
+              <Footer />
             </>
           }
         />
@@ -116,6 +125,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom17 />
+              <Footer />
             </>
           }
         />
@@ -127,6 +137,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom16 />
+              <Footer />
             </>
           }
         />
@@ -138,6 +149,7 @@ const Routerss = () => {
               <Header />
               <Excom />
               <Excom15 />
+              <Footer />
             </>
           }
         />
@@ -147,6 +159,7 @@ const Routerss = () => {
           element={
             <>
               <Society />
+              <Footer />
             </>
           }
         />
@@ -155,13 +168,49 @@ const Routerss = () => {
 
         <Route
           exact
-          path="/Events"
+          path="/Events/2022"
           element={
             <>
               <Header />
-              <Events20 />
-              <Events21 />
+              <Sidenav />
               <Events22 />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events/2021"
+          element={
+            <>
+              <Header />
+              <Sidenav />
+              <Events21 />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events/2020"
+          element={
+            <>
+              <Header />
+              <Sidenav />
+              <Events20 />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events/2019"
+          element={
+            <>
+              <Header />
+              <Sidenav/>
+              <Events19 />
+              <Footer />
             </>
           }
         />
@@ -172,6 +221,7 @@ const Routerss = () => {
             <>
               <Header />
               <Membership />
+              <Footer />
             </>
           }
         />
@@ -183,6 +233,7 @@ const Routerss = () => {
             <>
               <Header />
               <Gallery />
+              <Footer />
             </>
           }
         />
@@ -193,6 +244,7 @@ const Routerss = () => {
             <>
               <Header />
               <Contact />
+              <Footer />
             </>
           }
         />
@@ -203,6 +255,7 @@ const Routerss = () => {
             <>
               <Header />
               <SignIn />
+              <Footer />
             </>
           }
         />

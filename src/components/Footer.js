@@ -13,7 +13,7 @@ const Footer = () => {
             <div class="row">
                 <div class="col-3">
                     <div class="link-cat">
-                        <span class="footer-toggle"></span>
+                        
                         <span class="footer-cat">About</span>
                     </div>
                     <ul class="footer-cat-links">
@@ -83,11 +83,11 @@ const Footer = () => {
 
                 </div>
                 <div class="social-links social-1 col-6">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                    <a href=""><i class="fa fa-instagram"></i></a>
-                    <a href=""><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/StJosephs-College-of-Engineering-IEEE-Student-Branch-Chapter-108743565033214/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/SjceC"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/ieeesjcesbc"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ieeesjcesb/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/IEEESJCESB"><i class="fa fa-youtube"></i></a>
                 </div>
             </div>
             <div id="copyright">

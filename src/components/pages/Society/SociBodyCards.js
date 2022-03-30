@@ -12,6 +12,7 @@ import ias from '../../../Assets/logo/ias.png';
 import pels from '../../../Assets/logo/pels.png';
 import ras from '../../../Assets/logo/ras.png';
 import wie from '../../../Assets/logo/wie.png';
+import ies from '../../../Assets/logo/ies.png'
 
 
 
@@ -125,6 +126,18 @@ const SociBodyCards = () => {
 
                             </div>
                             <a href="ias.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socard">
+                    <div class="sobox">
+                        <div class="socontent">
+                            <img src={ies} alt="" />
+                            <h3>Industrial Electronics Society</h3>
+                            <div>
+
+                            </div>
+                            <a href="ies.html">View More</a>
                         </div>
                     </div>
                 </div>

@@ -55,7 +55,7 @@
   
   .send-button {
     margin-top: 15px;
-    padding-top: 9px;
+    padding-top: 6px;
     font-size: 20px;
     height: 40px;
     width: 418px;
@@ -91,7 +91,7 @@
   /* Location, Phone, Email Section */
   .contact-list {
     list-style-type: none;
-    margin-left: -30px;
+    margin-left: 40px;
     padding-right: 20px;
   }
   
@@ -107,15 +107,15 @@
   }
   
   .place {
-    margin-left: 62px;
+    margin-left: 30px;
   }
   
   .phone {
-    margin-left: 56px;
+    margin-left: 15px;
   }
   
   .gmail {
-    margin-left: 53px;
+    margin-left: 15px;
   }
   
   .contact-text a {
@@ -138,6 +138,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    margin-left: 30px;
   }
   
   .social-media-list li a {

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Eventspage.css"
 import img from '../../../Assets/zz.jpg'
 
-const Events20 = () => {
+const Events19 = () => {
   return (
     <div>
       <div className="Eventdetails">
@@ -56,4 +56,4 @@ const Events20 = () => {
   )
 }
 
-export default Events20
+export default Events19

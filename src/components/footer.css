@@ -3,6 +3,7 @@
 footer {
     background-color: #3c3b3b;
     padding: 3em 4em 2em;
+    
 }
 footer p{
     padding-right: 30px;
@@ -19,7 +20,7 @@ footer p{
         margin: 2em 0;
         font-family: lato;
         color: #fff;
-        position: relative;
+        
         border-bottom: 1px solid #cecece;
     }
     
@@ -128,9 +129,9 @@ footer p{
     }
 
     .social-links {
-        bottom: 20px;
-        position: absolute;
+        bottom: 10px;
         left: 0;
+        padding-bottom: 40px;
     }
     
         .social-links a {

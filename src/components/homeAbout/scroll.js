@@ -11,14 +11,14 @@ const Scroll = () => {
                 <section id="defilee" className="defilee__ctnr">
                     <div className="defilee__div defilee__div--special2">
                        <h3>Conocithon</h3>
-                        <p>Hi, I'm Lora!</p>
+                        <p>An International 24hour hackathon</p>
                     </div>
                     <div className="defilee__div defilee__div--special">
                     <h3>Conocithon</h3>
-                        <p>Hello, I'm Steve.</p>
+                        <p>An International 24 our hackathon</p>
                     </div>
                     <div className="defilee__div defilee__div--special1 first">
-                    <h3>Conocithon</h3>
+                    <h3>Envizaag</h3>
                         <p>I'm the boss.</p>
                     </div>
                     <div className="defilee__div defilee__div--special3">

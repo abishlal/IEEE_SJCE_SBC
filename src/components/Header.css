@@ -15,7 +15,7 @@ a:link{
 .header {
   background-color: black;
   color: rgb(0, 0, 0);
-  height: 10vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -53,9 +53,13 @@ li{
   display: flex;
   float: left;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
 }
-
+.Logo img{
+  background-color: #eee;
+  max-height: 12vh;
+  border-radius: 5px;
+}
 
 .btn1 {
   color: white;
