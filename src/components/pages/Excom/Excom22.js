@@ -109,7 +109,7 @@ const Excom22 = () => {
     <div className="body">
       <div className="sbc">
         <div class="nine">
-          <h1>Student Branch Office Bearers<span>Excom 2022</span></h1>
+          <h1>Student Branch Office Bearers<span>Execom 2022</span></h1>
         </div>
         <div className="box">
           <div className="excomCard">
@@ -429,7 +429,7 @@ const Excom22 = () => {
       </div>
       <div className="ias">
         <div class="nine">
-          <h1>Industrial Applications Society Office Bearers<span>Excom 2022</span></h1>
+          <h1>Industrial Applications Society Office Bearers<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -796,7 +796,7 @@ const Excom22 = () => {
       </div>
       <div className="ras">
         <div class="nine">
-          <h1>Robotics and Automation Society Office Bearers<span>Excom 2022</span></h1>
+          <h1>Robotics and Automation Society Office Bearers<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -1163,7 +1163,7 @@ const Excom22 = () => {
       </div>
       <div className="pels">
         <div class="nine">
-          <h1>Power Electronics Society Office Bearers<span>Excom 2022</span></h1>
+          <h1>Power Electronics Society Office Bearers<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -1529,7 +1529,7 @@ const Excom22 = () => {
       </div>
       <div className="wie">
         <div class="nine">
-          <h1>Women In Engineering Affinity Group Office Bearers<span>Excom 2022</span></h1>
+          <h1>Women In Engineering Affinity Group Office Bearers<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -1895,7 +1895,7 @@ const Excom22 = () => {
       </div>
       <div className="tamil">
         <div class="nine">
-          <h1>TAMIL MANDRAM<span>Excom 2022</span></h1>
+          <h1>TAMIL MANDRAM<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -2126,7 +2126,7 @@ const Excom22 = () => {
       </div>
       <div className="pc">
         <div class="nine">
-          <h1>PROGRAM COORDINATOR OF IEEE SJCE SB​<span>Excom 2022</span></h1>
+          <h1>PROGRAM COORDINATOR OF IEEE SJCE SB​<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -2178,7 +2178,7 @@ const Excom22 = () => {
       </div>
       <div className="conference">
         <div class="nine">
-          <h1>CONFERENCE TEAM​<span>Excom 2022</span></h1>
+          <h1>CONFERENCE TEAM​<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -2454,7 +2454,7 @@ const Excom22 = () => {
       </div>
       <div className="goodiesteam">
         <div class="nine">
-          <h1>AWARDS AND GOODIES TEAM​<span>Excom 2022</span></h1>
+          <h1>AWARDS AND GOODIES TEAM​<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -2730,7 +2730,7 @@ const Excom22 = () => {
       </div>
       <div className="designteam">
         <div class="nine">
-          <h1>GRAPHIC DESIGN TEAM​<span>Excom 2022</span></h1>
+          <h1>GRAPHIC DESIGN TEAM​<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -3006,7 +3006,7 @@ const Excom22 = () => {
       </div>
       <div className="contentteam">
         <div class="nine">
-          <h1>CONTENT CREATION TEAM​<span>Excom 2022</span></h1>
+          <h1>CONTENT CREATION TEAM​<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -3282,7 +3282,7 @@ const Excom22 = () => {
       </div>
       <div className="publicityteam">
         <div class="nine">
-          <h1>PUBLICITY TEAM<span>Excom 2022</span></h1>
+          <h1>PUBLICITY TEAM<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -3512,7 +3512,7 @@ const Excom22 = () => {
       </div>
       <div className="colobteam">
         <div class="nine">
-          <h1>COLLOBORATION TEAM<span>Excom 2022</span></h1>
+          <h1>COLLOBORATION TEAM<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -3788,7 +3788,7 @@ const Excom22 = () => {
       </div>
       <div className="webteam">
         <div class="nine">
-          <h1>WEBSITE TEAM<span>Excom 2022</span></h1>
+          <h1>WEBSITE TEAM<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -4064,7 +4064,7 @@ const Excom22 = () => {
       </div>
       <div className="specialdayteam">
         <div class="nine">
-          <h1>SPECIAL DAY TEAM<span>Excom 2022</span></h1>
+          <h1>SPECIAL DAY TEAM<span>Execom 2022</span></h1>
         </div>
 
         <div className="box">
