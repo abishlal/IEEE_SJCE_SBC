@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+.bg {
+  margin: 0px 15%;
+  background-position: center;
+  background-size: cover;
+  min-height: auto;
+  width: 90%;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.rgb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  border: 0px;
+  border-radius: 5px;
+}
+.blackBg {
+  border-radius: 12px;
+  display: flex;
+}
+.panel {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(0, 0, 0, 0.274) 100%
+  );
+  backdrop-filter: blur(1px);
+  border-radius: 12px;
+  width: 75%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  padding-right: 60px;
+  margin-right: 0px;
+  box-shadow: rgba(85, 77, 77, 0.5) -20px -20px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  z-index: 0;
+  position: relative;
+}
+.cardRight {
+  display: flex;
+  flex-direction: column;
+}
+.qtImg img {
+  width: 150px;
+  margin: -60px 0px 0px -10px;
+  z-index: 1;
+}
+
+.panel h2 {
+  font-size: 2em;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.Qby {
+  width: 100%;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+.Qby h2 {
+  color: bisque;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: right;
+}
