@@ -1,12 +1,115 @@
 import React from "react";
 import './excom.css';
+import img_sb_1 from "../../../Assets/excom/2022/sb/1.jpg"
+import img_sb_2 from "../../../Assets/excom/2022/sb/2.jpg"
+import img_sb_3 from "../../../Assets/excom/2022/sb/3.jpg"
+import img_sb_4 from "../../../Assets/excom/2022/sb/4.jpeg"
+import img_sb_5 from "../../../Assets/excom/2022/sb/5.jpg"
+import img_sb_6 from "../../../Assets/excom/2022/sb/6.jpg"
+import img_sb_7 from "../../../Assets/excom/2022/sb/7.jpg"
+
+import img_ias_1 from "../../../Assets/excom/2022/ias/1.jpg"
+import img_ias_2 from "../../../Assets/excom/2022/ias/2.jpg"
+import img_ias_3 from "../../../Assets/excom/2022/ias/3.jpg"
+import img_ias_4 from "../../../Assets/excom/2022/ias/4.jpg"
+import img_ias_5 from "../../../Assets/excom/2022/ias/5.jpg"
+import img_ias_6 from "../../../Assets/excom/2022/ias/6.jpg"
+import img_ias_7 from "../../../Assets/excom/2022/ias/7.jpeg"
+import img_ias_8 from "../../../Assets/excom/2022/ias/8.jpg"
+
+import img_ras_1 from "../../../Assets/excom/2022/ras/1.jpg"
+import img_ras_2 from "../../../Assets/excom/2022/ras/2.jpeg"
+import img_ras_3 from "../../../Assets/excom/2022/ras/3.jpg"
+import img_ras_4 from "../../../Assets/excom/2022/ras/4.jpeg"
+import img_ras_5 from "../../../Assets/excom/2022/ras/5.jpg"
+import img_ras_6 from "../../../Assets/excom/2022/ras/6.jpg"
+import img_ras_7 from "../../../Assets/excom/2022/ras/7.jpg"
+import img_ras_8 from "../../../Assets/excom/2022/ras/8.jpeg"
+
+import img_pes_1 from "../../../Assets/excom/2022/pes/1.jpg"
+import img_pes_2 from "../../../Assets/excom/2022/pes/2.jpg"
+import img_pes_3 from "../../../Assets/excom/2022/pes/3.jpg"
+import img_pes_4 from "../../../Assets/excom/2022/pes/4.jpeg"
+import img_pes_5 from "../../../Assets/excom/2022/pes/5.jpg"
+import img_pes_6 from "../../../Assets/excom/2022/pes/6.jpg"
+import img_pes_7 from "../../../Assets/excom/2022/pes/7.jpg"
+import img_pes_8 from "../../../Assets/excom/2022/pes/8.jpg"
+
+import img_wie_1 from "../../../Assets/excom/2022/wie/1.jpg"
+import img_wie_2 from "../../../Assets/excom/2022/wie/2.jpeg"
+import img_wie_3 from "../../../Assets/excom/2022/wie/3.jpg"
+import img_wie_4 from "../../../Assets/excom/2022/wie/4.jpg"
+import img_wie_5 from "../../../Assets/excom/2022/wie/5.jpg"
+import img_wie_6 from "../../../Assets/excom/2022/wie/6.jpg"
+import img_wie_7 from "../../../Assets/excom/2022/wie/7.jpg"
+import img_wie_8 from "../../../Assets/excom/2022/wie/8.jpg"
+
+import img_pc_1 from "../../../Assets/excom/2022/program_coordinator/1.jpeg"
+
+import img_con_1 from "../../../Assets/excom/2022/conference/1.png"
+import img_con_2 from "../../../Assets/excom/2022/conference/2.jpg"
+import img_con_3 from "../../../Assets/excom/2022/conference/3.jpg"
+import img_con_4 from "../../../Assets/excom/2022/conference/4.jpg"
+import img_con_5 from "../../../Assets/excom/2022/conference/5.jpeg"
+import img_con_6 from "../../../Assets/excom/2022/conference/6.jpg"
+
+import img_award_1 from "../../../Assets/excom/2022/awards/1.jpeg"
+import img_award_2 from "../../../Assets/excom/2022/awards/2.jpg"
+import img_award_3 from "../../../Assets/excom/2022/awards/3.jpg"
+import img_award_4 from "../../../Assets/excom/2022/awards/4.jpeg"
+import img_award_5 from "../../../Assets/excom/2022/awards/5.jpg"
+import img_award_6 from "../../../Assets/excom/2022/awards/6.jpeg"
+
+import img_graphic_1 from "../../../Assets/excom/2022/graphic/1.jpeg"
+import img_graphic_2 from "../../../Assets/excom/2022/graphic/2.jpeg"
+import img_graphic_3 from "../../../Assets/excom/2022/graphic/3.jpeg"
+import img_graphic_4 from "../../../Assets/excom/2022/graphic/4.jpg"
+import img_graphic_5 from "../../../Assets/excom/2022/graphic/5.jpg"
+import img_graphic_6 from "../../../Assets/excom/2022/graphic/6.jpeg"
+
+import img_content_1 from "../../../Assets/excom/2022/content/1.jpeg"
+import img_content_2 from "../../../Assets/excom/2022/content/2.jpg"
+import img_content_3 from "../../../Assets/excom/2022/content/3.jpeg"
+import img_content_4 from "../../../Assets/excom/2022/content/4.jpeg"
+import img_content_5 from "../../../Assets/excom/2022/content/5.jpeg"
+import img_content_6 from "../../../Assets/excom/2022/content/6.jpeg"
+
+import img_pub_1 from "../../../Assets/excom/2022/publicity/1.jpg"
+import img_pub_2 from "../../../Assets/excom/2022/publicity/2.jpg"
+import img_pub_3 from "../../../Assets/excom/2022/publicity/3.jpg"
+import img_pub_4 from "../../../Assets/excom/2022/publicity/4.jpg"
+import img_pub_5 from "../../../Assets/excom/2022/publicity/5.jpg"
+
+import img_col_1 from "../../../Assets/excom/2022/colloboration/1.jpeg"
+import img_col_2 from "../../../Assets/excom/2022/colloboration/2.jpeg"
+import img_col_3 from "../../../Assets/excom/2022/colloboration/3.jpg"
+import img_col_4 from "../../../Assets/excom/2022/colloboration/4.jpeg"
+import img_col_5 from "../../../Assets/excom/2022/colloboration/5.jpeg"
+import img_col_6 from "../../../Assets/excom/2022/colloboration/6.jpg"
+
+import img_web_1 from "../../../Assets/excom/2022/website/1.jpg"
+import img_web_2 from "../../../Assets/excom/2022/website/2.jpg"
+import img_web_3 from "../../../Assets/excom/2022/website/3.jpg"
+import img_web_4 from "../../../Assets/excom/2022/website/4.jpeg"
+import img_web_5 from "../../../Assets/excom/2022/website/5.jpg"
+import img_web_6 from "../../../Assets/excom/2022/website/6.jpg"
+
+import img_special_1 from "../../../Assets/excom/2022/special/1.jpg"
+import img_special_2 from "../../../Assets/excom/2022/special/2.jpeg"
+
+import img_tamil_1 from "../../../Assets/excom/2022/tamil/1.jpg"
+import img_tamil_2 from "../../../Assets/excom/2022/tamil/2.jpeg"
+import img_tamil_3 from "../../../Assets/excom/2022/tamil/3.jpeg"
+import img_tamil_4 from "../../../Assets/excom/2022/tamil/4.jpg"
+import img_tamil_5 from "../../../Assets/excom/2022/tamil/5.jpg"
+
 
 const Excom22 = () => {
   return (
     <div className="body">
       <div className="sbc">
         <div class="nine">
-          <h1>Student Branch Office Bearers<span>Execom 2022</span></h1>
+          <h1>Student Branch Office Bearers<span>Excom 2022</span></h1>
         </div>
         <div className="box">
           <div className="excomCard">
@@ -38,7 +141,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -81,7 +184,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Mohamed Aashik S
@@ -124,7 +227,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Arisudan T
@@ -171,7 +274,8 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_4} alt="images"></img>
+
             </div>
             <div className="detail">
               <h2>Priyanka J
@@ -214,7 +318,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Ranjani S
@@ -257,7 +361,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Karthik Kumar C
@@ -306,7 +410,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abishlal N S
@@ -325,7 +429,7 @@ const Excom22 = () => {
       </div>
       <div className="ias">
         <div class="nine">
-          <h1>Industrial Applications Society Office Bearers<span>Execom 2022</span></h1>
+          <h1>Industrial Applications Society Office Bearers<span>Excom 2022</span></h1>
         </div>
 
         <div className="box">
@@ -358,7 +462,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dr.Jayarama Pradeep
@@ -401,7 +505,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Denora S
@@ -444,7 +548,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Kavipriya D
@@ -493,7 +597,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Ananya P K
@@ -536,7 +640,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Karthikeyan S
@@ -579,7 +683,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Prasanna Gnanambiga S
@@ -628,7 +732,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hema Apsara A
@@ -671,7 +775,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_8} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Rajesh S
@@ -725,7 +829,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -768,7 +872,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abina S
@@ -811,7 +915,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Aparnaa G
@@ -860,7 +964,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abinaya M
@@ -903,7 +1007,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Keerthana S
@@ -946,7 +1050,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sunitha K
@@ -995,7 +1099,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Nithin Joel J
@@ -1038,7 +1142,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_8} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Gokul Kumar M
@@ -1092,7 +1196,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -1135,7 +1239,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Elanchezhiyan R J
@@ -1178,7 +1282,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Karthikeyan M
@@ -1227,7 +1331,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jesse S
@@ -1270,7 +1374,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Alwyn Samuel M
@@ -1313,7 +1417,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Divya Lakshmi G
@@ -1362,7 +1466,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Poojasree K
@@ -1405,7 +1509,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_8} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hemaa K
@@ -1458,7 +1562,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dr.Jayarama Pradeep
@@ -1501,7 +1605,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abinayaa Sri T
@@ -1544,7 +1648,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jamuna U
@@ -1593,7 +1697,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Christel Peeris R
@@ -1636,7 +1740,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Kaviya P
@@ -1679,7 +1783,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Ramya R
@@ -1728,7 +1832,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Deepika U
@@ -1771,7 +1875,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_8} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dharani V
@@ -1780,6 +1884,237 @@ const Excom22 = () => {
             <div className="details">
               <h2>Dharani V
                 <span>COMMITTEE MEMBER - 2
+                </span></h2>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope"></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div className="tamil">
+        <div class="nine">
+          <h1>TAMIL MANDRAM<span>Excom 2022</span></h1>
+        </div>
+
+        <div className="box">
+          <div className="excomCard">
+            <div className="rot">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                <title>Desination</title>
+                <defs>
+                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite"
+                    />
+                  </path>
+
+                </defs>
+
+                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
+                <text dy="70" textLength="1220">
+
+                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
+                </text>
+              </svg>
+            </div>
+            <div className="imgBx">
+              <img src={img_tamil_1} alt="images"></img>
+            </div>
+            <div className="detail">
+              <h2>Mani Sha N
+              </h2>
+            </div>
+            <div className="details">
+              <h2>Mani Sha N
+                <span>CHAIR PERSON
+                </span></h2>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope"></a>
+            </div>
+          </div>
+          <div className="excomCard">
+            <div className="rot">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                <title>Desination</title>
+                <defs>
+                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite"
+                    />
+                  </path>
+
+                </defs>
+
+                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
+                <text dy="70" textLength="1220">
+
+                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
+                </text>
+              </svg>
+            </div>
+            <div className="imgBx">
+              <img src={img_tamil_2} alt="images"></img>
+            </div>
+            <div className="detail">
+              <h2>Jayashruthi R V
+              </h2>
+            </div>
+            <div className="details">
+              <h2>Jayashruthi R V
+                <span>VICE CHAIR
+                </span></h2>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope"></a>
+            </div>
+          </div>
+          <div className="excomCard">
+            <div className="rot">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                <title>Desination</title>
+                <defs>
+                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite"
+                    />
+                  </path>
+
+                </defs>
+
+                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
+                <text dy="70" textLength="1220">
+
+                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
+                </text>
+              </svg>
+            </div>
+            <div className="imgBx">
+              <img src={img_tamil_3} alt="images"></img>
+            </div>
+            <div className="detail">
+              <h2>Akshaya Krishnen K
+              </h2>
+            </div>
+            <div className="details">
+              <h2>Akshaya Krishnen K
+                <span>SECRETARY
+                </span></h2>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope"></a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div className="box">
+          <div className="excomCard">
+            <div className="rot">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                <title>Desination</title>
+                <defs>
+                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite"
+                    />
+                  </path>
+
+                </defs>
+
+                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
+                <text dy="70" textLength="1220">
+
+                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
+                </text>
+              </svg>
+            </div>
+            <div className="imgBx">
+              <img src={img_tamil_4} alt="images"></img>
+            </div>
+            <div className="detail">
+              <h2>Amirtha Varshini M
+              </h2>
+            </div>
+            <div className="details">
+              <h2>Amirtha Varshini M
+                <span>JOINT SECRETARY
+                </span></h2>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope"></a>
+            </div>
+          </div>
+          <div className="excomCard">
+            <div className="rot">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                <title>Desination</title>
+                <defs>
+                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="30s"
+                      type="rotate"
+                      from="0 250 250"
+                      to="360 250 250"
+                      repeatCount="indefinite"
+                    />
+                  </path>
+
+                </defs>
+
+                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
+                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
+                <text dy="70" textLength="1220">
+
+                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
+                </text>
+              </svg>
+            </div>
+            <div className="imgBx">
+              <img src={img_tamil_5} alt="images"></img>
+            </div>
+            <div className="detail">
+              <h2>Godson S V Noble
+              </h2>
+            </div>
+            <div className="details">
+              <h2>Godson S V Noble
+                <span>TREASURER
                 </span></h2>
               <a href="#" class="fa fa-linkedin"></a>
               <a href="#" class="fa fa-envelope"></a>
@@ -1824,7 +2159,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pc_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Swetha B
@@ -1876,7 +2211,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Thiruvel A P
@@ -1919,7 +2254,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Rajesh S
@@ -1962,7 +2297,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Bertina S
@@ -2011,7 +2346,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>ShivKumar Eswar B
@@ -2054,7 +2389,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Yavanesh J
@@ -2097,7 +2432,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_con_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Narendra S
@@ -2152,7 +2487,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jesse S
@@ -2195,7 +2530,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jayavarshini V
@@ -2238,7 +2573,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Shahin R J
@@ -2287,7 +2622,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Joel Ebinezar J
@@ -2330,7 +2665,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Manigandan V
@@ -2373,7 +2708,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_award_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Naveen Buyavarapu
@@ -2428,7 +2763,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Kavin D
@@ -2471,7 +2806,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abiksitha R
@@ -2514,7 +2849,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hariharan N
@@ -2563,7 +2898,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sumanth K
@@ -2606,7 +2941,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Shyfullah P M
@@ -2649,7 +2984,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_graphic_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Eureak Singh S
@@ -2704,7 +3039,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Maria Shirley John L M
@@ -2747,7 +3082,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Poornavikash T
@@ -2790,7 +3125,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Darsini R
@@ -2839,7 +3174,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Rathna Devi S
@@ -2882,7 +3217,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Praveen Kumar J
@@ -2925,7 +3260,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_content_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Chureender T
@@ -2980,7 +3315,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pub_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Prasanth Kumar A V
@@ -3023,7 +3358,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pub_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Thavaloshini A
@@ -3066,7 +3401,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pub_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Nandi Vardhan Reddy R
@@ -3115,7 +3450,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pub_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Shankar Aahash S
@@ -3158,7 +3493,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pub_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Haresh R
@@ -3210,7 +3545,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Udhayaraga B
@@ -3253,7 +3588,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Evangelene M
@@ -3296,7 +3631,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Prasanna Gnanambiga S
@@ -3345,7 +3680,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Prema D
@@ -3388,7 +3723,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Faizaan Ahmed Y
@@ -3431,7 +3766,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_col_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Alwyn Samuel M
@@ -3486,7 +3821,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abishlal N S
@@ -3529,7 +3864,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Mugundhan B
@@ -3572,7 +3907,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Linda Joice R P
@@ -3621,7 +3956,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Abinaya Priya R A
@@ -3664,7 +3999,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Aruna Devi S
@@ -3707,7 +4042,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_web_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Karthikeyan M
@@ -3762,7 +4097,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_special_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jenin Benedict A
@@ -3805,7 +4140,7 @@ const Excom22 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_special_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hema Apsara A
@@ -3814,237 +4149,6 @@ const Excom22 = () => {
             <div className="details">
               <h2>Hema Apsara A
                 <span>CO-LEAD
-                </span></h2>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-envelope"></a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-      <div className="tamil">
-        <div class="nine">
-          <h1>TAMIL MANDRAM<span>Excom 2022</span></h1>
-        </div>
-
-        <div className="box">
-          <div className="excomCard">
-            <div className="rot">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-                <title>Desination</title>
-                <defs>
-                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-                    <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="30s"
-                      type="rotate"
-                      from="0 250 250"
-                      to="360 250 250"
-                      repeatCount="indefinite"
-                    />
-                  </path>
-
-                </defs>
-
-                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
-                <text dy="70" textLength="1220">
-
-                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
-            </div>
-            <div className="detail">
-              <h2>Mani Sha N
-              </h2>
-            </div>
-            <div className="details">
-              <h2>Mani Sha N
-                <span>CHAIR PERSON
-                </span></h2>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-envelope"></a>
-            </div>
-          </div>
-          <div className="excomCard">
-            <div className="rot">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-                <title>Desination</title>
-                <defs>
-                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-                    <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="30s"
-                      type="rotate"
-                      from="0 250 250"
-                      to="360 250 250"
-                      repeatCount="indefinite"
-                    />
-                  </path>
-
-                </defs>
-
-                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
-                <text dy="70" textLength="1220">
-
-                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
-            </div>
-            <div className="detail">
-              <h2>Jayashruthi R V
-              </h2>
-            </div>
-            <div className="details">
-              <h2>Jayashruthi R V
-                <span>VICE CHAIR
-                </span></h2>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-envelope"></a>
-            </div>
-          </div>
-          <div className="excomCard">
-            <div className="rot">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-                <title>Desination</title>
-                <defs>
-                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-                    <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="30s"
-                      type="rotate"
-                      from="0 250 250"
-                      to="360 250 250"
-                      repeatCount="indefinite"
-                    />
-                  </path>
-
-                </defs>
-
-                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
-                <text dy="70" textLength="1220">
-
-                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
-            </div>
-            <div className="detail">
-              <h2>Akshaya Krishnen K
-              </h2>
-            </div>
-            <div className="details">
-              <h2>Akshaya Krishnen K
-                <span>SECRETARY
-                </span></h2>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-envelope"></a>
-            </div>
-          </div>
-
-
-
-
-        </div>
-        <div className="box">
-          <div className="excomCard">
-            <div className="rot">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-                <title>Desination</title>
-                <defs>
-                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-                    <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="30s"
-                      type="rotate"
-                      from="0 250 250"
-                      to="360 250 250"
-                      repeatCount="indefinite"
-                    />
-                  </path>
-
-                </defs>
-
-                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
-                <text dy="70" textLength="1220">
-
-                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
-            </div>
-            <div className="detail">
-              <h2>Amirtha Varshini M
-              </h2>
-            </div>
-            <div className="details">
-              <h2>Amirtha Varshini M
-                <span>JOINT SECRETARY
-                </span></h2>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-envelope"></a>
-            </div>
-          </div>
-          <div className="excomCard">
-            <div className="rot">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-                <title>Desination</title>
-                <defs>
-                  <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
-                    <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="30s"
-                      type="rotate"
-                      from="0 250 250"
-                      to="360 250 250"
-                      repeatCount="indefinite"
-                    />
-                  </path>
-
-                </defs>
-
-                <use xlinkHref="#redstripe" transform="rotate(90 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(45 250 250)" />
-                <use xlinkHref="#redstripe" transform="rotate(-45 250 250)" />
-                <text dy="70" textLength="1220">
-
-                  <textPath xlinkHref="#textcircle">EXECOM 2022 * EXECOM 2022 *</textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
-            </div>
-            <div className="detail">
-              <h2>Godson S V Noble
-              </h2>
-            </div>
-            <div className="details">
-              <h2>Godson S V Noble
-                <span>TREASURER
                 </span></h2>
               <a href="#" class="fa fa-linkedin"></a>
               <a href="#" class="fa fa-envelope"></a>

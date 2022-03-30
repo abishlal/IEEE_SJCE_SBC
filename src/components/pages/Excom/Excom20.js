@@ -1,4 +1,43 @@
 import React from "react";
+import './excom.css'
+
+import img_sb_1 from "../../../Assets/excom/2020/sb/1.jpg"
+import img_sb_2 from "../../../Assets/excom/2020/sb/2.jpg"
+import img_sb_3 from "../../../Assets/excom/2020/sb/3.jpg"
+import img_sb_4 from "../../../Assets/excom/2020/sb/4.jpg"
+import img_sb_5 from "../../../Assets/excom/2020/sb/5.jpg"
+import img_sb_6 from "../../../Assets/excom/2020/sb/6.jpg"
+import img_sb_7 from "../../../Assets/excom/2020/sb/7.jpg"
+
+import img_ias_1 from "../../../Assets/excom/2020/ias/1.jpg"
+import img_ias_2 from "../../../Assets/excom/2020/ias/2.jpg"
+import img_ias_3 from "../../../Assets/excom/2020/ias/3.jpg"
+import img_ias_4 from "../../../Assets/excom/2020/ias/4.jpg"
+import img_ias_5 from "../../../Assets/excom/2020/ias/5.jpg"
+import img_ias_6 from "../../../Assets/excom/2020/ias/6.jpg"
+
+import img_ras_1 from "../../../Assets/excom/2020/ras/1.jpg"
+import img_ras_2 from "../../../Assets/excom/2020/ras/2.jpg"
+import img_ras_3 from "../../../Assets/excom/2020/ras/3.jpg"
+import img_ras_4 from "../../../Assets/excom/2020/ras/4.jpg"
+import img_ras_5 from "../../../Assets/excom/2020/ras/5.jpg"
+import img_ras_6 from "../../../Assets/excom/2020/ras/6.jpg"
+
+import img_pes_1 from "../../../Assets/excom/2020/pes/1.jpg"
+import img_pes_2 from "../../../Assets/excom/2020/pes/2.jpg"
+import img_pes_3 from "../../../Assets/excom/2020/pes/3.jpg"
+import img_pes_4 from "../../../Assets/excom/2020/pes/4.jpg"
+import img_pes_5 from "../../../Assets/excom/2020/pes/5.jpg"
+import img_pes_6 from "../../../Assets/excom/2020/pes/6.jpg"
+
+import img_wie_1 from "../../../Assets/excom/2020/wie/1.jpg"
+import img_wie_2 from "../../../Assets/excom/2020/wie/2.jpg"
+import img_wie_3 from "../../../Assets/excom/2020/wie/3.jpg"
+import img_wie_4 from "../../../Assets/excom/2020/wie/4.jpg"
+import img_wie_5 from "../../../Assets/excom/2020/wie/5.jpg"
+import img_wie_6 from "../../../Assets/excom/2020/wie/6.jpg"
+
+
 
 export const Excom20 = () => {
   return (
@@ -38,7 +77,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -82,7 +121,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Kumaran MS
@@ -125,7 +164,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Arangan Rishikesh T
@@ -175,7 +214,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hounandan R</h2>
@@ -215,7 +254,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sharan R
@@ -258,7 +297,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Prahatheesh B
@@ -309,7 +348,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_sb_7} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Bavithra Rajan S
@@ -368,7 +407,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dr.Jayarama Pradeep
@@ -411,7 +450,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Yogesh S N
@@ -454,7 +493,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Krishaa P R
@@ -504,7 +543,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Hariharan P
@@ -547,7 +586,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Arvind G K
@@ -591,7 +630,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ias_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Purnima Mangalya T
@@ -646,7 +685,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -689,7 +728,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Swathish G
@@ -733,7 +772,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sriram A
@@ -783,7 +822,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dennis Christopher
@@ -826,7 +865,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Praneet S
@@ -870,7 +909,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_ras_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Arun Kumar S
@@ -925,7 +964,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sreekanth R
@@ -968,7 +1007,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Nirmitha A J
@@ -1011,7 +1050,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Madhupreetha S
@@ -1061,7 +1100,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Jennifer Dania T
@@ -1104,7 +1143,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Karin Ramani A
@@ -1148,7 +1187,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_pes_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Herena Joshika A S
@@ -1204,7 +1243,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_1} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dr.Jayarama Pradeep
@@ -1247,7 +1286,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_2} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Priyadharshini P
@@ -1290,7 +1329,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_3} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Akshaya S
@@ -1340,7 +1379,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_4} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Sivapriya B
@@ -1383,7 +1422,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_5} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Divya V
@@ -1427,7 +1466,7 @@ export const Excom20 = () => {
               </svg>
             </div>
             <div className="imgBx">
-              <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"></img>
+              <img src={img_wie_6} alt="images"></img>
             </div>
             <div className="detail">
               <h2>Dhini Shekinah Albert
