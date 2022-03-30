@@ -53,11 +53,11 @@ const Footer = () => {
                         <span class="footer-cat">IEEE Links</span>
                     </div>
                     <ul class="footer-cat-links">
-                        <li><a href="https://www.ieee.org/"><span>IEEE</span></a></li>
-                        <li><a href="https://www.ieeemadras.org/"><span>IEEE Madras Section</span></a></li>
-                        <li><a href="https://www.ieee.org/sitemap.html"><span>Sitemap</span></a></li>
-                        <li><a href="https://www.ieee.org/security-privacy.html"><span>Privacy Policy</span></a></li>
-                        <li><a href="https://www.ieee.org/about/corporate/governance/p9-26.html"><span>Nondiscrimination Policy</span></a></li>
+                        <li><a href="https://www.ieee.org/" target="_blank"><span>IEEE</span></a></li>
+                        <li><a href="https://www.ieeemadras.org/" target="_blank"><span>IEEE Madras Section</span></a></li>
+                        <li><a href="https://www.ieee.org/sitemap.html" target="_blank"><span>Sitemap</span></a></li>
+                        <li><a href="https://www.ieee.org/security-privacy.html" target="_blank"><span>Privacy Policy</span></a></li>
+                        <li><a href="https://www.ieee.org/about/corporate/governance/p9-26.html" target="_blank"><span>Nondiscrimination Policy</span></a></li>
                     </ul>
                 </div>
                 <div class="col-3" id="newsletter">
